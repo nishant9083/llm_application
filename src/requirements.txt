@@ -1,0 +1,9 @@
+streamlit
+chromadb
+python-dotenv
+pypdf2
+langchain
+langchain_community
+huggingface_hub
+openai
+beautifulsoup4
