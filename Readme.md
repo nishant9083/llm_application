@@ -8,11 +8,14 @@ This is an example of RAG by using Larage Language Model.
 1. Clone the repository: 
 `git clone https://github.com/nishant9083/llm_application.git`
 
-2. Install dependencies by running: 
+2. Change the directory to llm_application
+`cd llm_application`
+
+3. Install dependencies by running: 
 `pip install -r ./src/requirements.txt`
 
-3. Change to src directory:
+4. Change to src directory:
 `cd src`
 
-4. Run the app.py file by:
+5. Run the app.py file by:
 `streamlit run app.py`
