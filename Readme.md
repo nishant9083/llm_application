@@ -22,3 +22,6 @@ This is an example of RAG by using Larage Language Model.
 
 6. Run the app.py file by:
 `streamlit run app.py`
+
+
+![image](https://github.com/user-attachments/assets/45a97a55-d030-4807-9769-690d0d07343d)
