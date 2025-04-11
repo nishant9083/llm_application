@@ -40,6 +40,7 @@ def get_chat(vector_store):
     # 	llm = ChatOpenAI()
     llm = HuggingFaceEndpoint(
         repo_id="mistralai/Mistral-7B-Instruct-v0.2", temperature = 0.5,
+        task="text-generation",
         model_kwargs={"max_length": 1024},
     )
     memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
